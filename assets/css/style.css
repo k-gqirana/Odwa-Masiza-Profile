@@ -298,12 +298,21 @@ img {
   @media (max-width: 480px){
     .popup-content{
         width: 90%;
-        height: 80vh;
+        height: 70vh;
         overflow: hidden;
         overflow-y: scroll;
     }
   }
   
+  @media (max-width: 860px){
+    .popup-content{
+        width: 90%;
+        height: 70vh;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+  }
+
 .close-link {
     position: absolute;
     top: 25px;
@@ -322,6 +331,24 @@ img {
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+
+@media (max-width: 480px){
+    .popup-content-work{
+        width: 90%;
+        height: 80vh;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+  }
+
+  @media (max-width: 860px){
+    .popup-content-work{
+        width: 90%;
+        height: 70vh;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+  }
 
   .portfolio-analysis{
     display: none;
